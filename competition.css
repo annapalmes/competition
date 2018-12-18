@@ -1,0 +1,500 @@
+* {
+    box-sizing: content-box;
+}
+
+/*HOME*/
+
+h1 {
+    margin-top: 30px;
+    color: yellow;
+    font-size: 30px;
+    margin-left: 32px;
+}
+
+body {
+    background-image: url(images/photo-1530075288903-69b220251c3e.jpeg);
+    background-repeat: no-repeat;
+    background-size: 550px;
+
+}
+
+#date {
+    color: beige;
+    text-align: center;
+
+}
+
+.calendarLocation {
+    display: flex;
+}
+
+.ranking {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px 55px 20px 55px;
+
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    opacity: 0.7;
+    padding: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.chat1 {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    opacity: 0.7;
+    padding: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.music {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    opacity: 0.7;
+    padding: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button {
+    font-size: 20px;
+    color: coral;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:whitesmoke;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+/*CALENDAR*/
+
+.h1calendar {
+    color: beige;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.back {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.month {
+    padding: 70px 24px;
+    text-align: center;
+    background: cornflowerblue;
+    width: 83.5%;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.days li .active {
+
+    background-color: darkturquoise;
+    color: black;
+}
+
+.days li .active2 {
+
+    padding: 2px;
+    background-color: springgreen;
+    color: black;
+
+}
+
+/* Add media queries for smaller screens */
+
+@media screen and (max-width:720px) {
+
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}
+
+/* LOCATION */
+
+.homeback {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 200px;
+
+
+}
+
+.traicolor {
+    color: darkturquoise;
+    font-size: 35px;
+    text-align: center;
+}
+
+.compecolor {
+    color: springgreen;
+    font-size: 35px;
+    text-align: center;
+}
+
+.map {
+    margin-left: 50px;
+
+}
+
+.map2 {
+    margin-left: 50px;
+
+}
+
+.time{
+    color : white;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+
+/*RULES*/
+
+.rules2 {
+    color: white;
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*TEAMS*/
+
+h2 {
+    margin-left: 0px;
+    font-size: 29px;
+    color: yellow;
+}
+
+.flash {
+    height: 20px;
+}
+
+.battles {
+    color: lightgoldenrodyellow;
+    background-color: black;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    font-size: 13px;
+    list-style-type: none;
+
+}
+
+.teams {
+    color: lightgoldenrodyellow;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.h1teams {
+    text-align: center;
+    margin-right: 35px;
+}
+
+/*LOGIN*/
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.buttonlogin {
+    margin-left: 210px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.buttonsignin {
+    background-color: black;
+    opacity: 0.7;
+    color: lightgoldenrodyellow;
+    margin-top: 23px;
+
+}
+
+.buttonposition {
+    text-align: right;
+    height: 0px;
+}
+
+/*SIGN IN*/
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    padding-top: 10px;
+
+}
+
+.backposition {
+    width: 0px;
+    margin: 0px;
+}
+
+.backhome {
+    width: 0px;
+    margin-left: 270px;
+    margin-top: -35px;
+}
+
+/*PROFILE*/
+
+.profile2 {
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+.nameandmail {
+    color: white;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* CHAT */
+
+.box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: 40px;
+    overflow-y: scroll;
+    height: 350px;
+    
+
+}
+
+.input {
+    width: 200px;
+    margin-top: 5px;
+}
+
+#posts div{
+    background-color:cornflowerblue;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    opacity: 2;
+}
+
+#posts {
+    scroll-behavior: smooth;
+}
+
+/*MUSIC*/
+
+.h1music {
+    text-align: center;
+    margin-right: 20px;
+    font-size: 50px;
+    color: yellow;
+}
+
+.song {
+    color: white;
+    font-weight: bold;
+}
+
+.singer {
+    color: yellow;
+}
+
+/* TEAMS */
+
+.table {
+    height: 500px;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+td{
+    color: black;
+    background-color: darkgrey;
+}
+
+@media only screen and (orientation: landscape) {
+
+.menu {
+
+        align-items: center;
+    }
+
+body {
+        background-size: 568px;
+    }
+
+h1 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+.month {
+        padding: 70px 24px;
+        text-align: center;
+        background: lightskyblue;
+        width: auto;
+    }
+
+.map {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+.map2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+.homeback {
+
+        margin-left: 450px;
+    }
+
+.h1teams {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+h2 {
+        margin-left: 0px;
+        text-align: center;
+
+    }
+
+.buttonlogin {
+        margin-left: 410px;
+    }
+
+.profile2 {
+
+        margin-left: 180px;
+    }
+
+.container {
+
+        text-align: center;
+
+    }

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="images/photo-1508700929628-666bc8bd84ea.jpg" rel="shortcut icon" sizes="152x152">
+    <link href="images/photo-1508700929628-666bc8bd84ea.jpg" rel="apple-touch-icon" sizes="152x152">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="competition.css">
+    <title> street dance </title>
+
+</head>
+
+<body>
+
+    <!--HOME-->
+    
+    <div id="home" class="container">
+
+        <h1>STREET DANCE</h1>
+
+        <div id="date"></div>
+
+        <div class="menu">
+
+            <div data-page="calendar" class="calendarLocation">
+                <img class="ranking" src="images/calendar.png">
+            </div>
+
+            <div data-page="ranking">
+                <img class="ranking" src="images/three-stars.png">
+            </div>
+
+            <div data-page="rules">
+                <img class="ranking" src="images/document.png">
+            </div>
+        </div>
+
+        <button onclick="login()" id="login" >log in </button>
+
+        <div class="bottom">
+            <div>
+                <img data-page="profile" class="profile" src="images/user%20copy.png">
+            </div>
+            <div>
+                <img data-page="chat" class="chat1" src="images/chat.png">
+            </div>
+            <div>
+                <img data-page="music" class="music" src="images/play-button.png">
+            </div>
+        </div>
+
+    </div>
+
+    <!--CALENDAR-->
+    
+    <div id="calendar" class="container">
+
+        <div data-page="home"><img class="back" src="images/left-arrow.png"></div>
+        <h1 class="h1calendar">CALENDAR AND LOCATION</h1>
+
+        <div class="month">
+            <ul>
+                DECEMBER
+                <span>2018</span>
+            </ul>
+        </div>
+
+        <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+        </ul>
+
+        <ul class="days">
+            <li>
+                <span data-page="location" class="active">1</span>
+            </li>
+            <li>
+                <span data-page="location" class="active">2</span>
+            </li>
+            <li>3</li>
+            <li>
+                <span data-page="location" class="active">4</span>
+            </li>
+            <li>
+                <span data-page="location" class="active">5</span>
+            </li>
+            <li>
+                <span data-page="location" class="active2">6</span>
+            </li>
+            <li>7</li>
+            <li>8</li>
+            <li>
+                <span data-page="location" class="active">9</span>
+            </li>
+            <li>
+                <span data-page="location" class="active">10</span>
+            </li>
+            <li>11</li>
+            <li>
+                <span data-page="location" class="active2">12</span>
+            </li>
+            <li>13</li>
+            <li>14</li>
+            <li>
+                <span data-page="location" class="active">15</span>
+            </li>
+            <li>
+                <span data-page="location" class="active">16</span>
+            </li>
+            <li>
+                <span data-page="location" class="active">17</span>
+            </li>
+            <li>18</li>
+            <li>
+                <span data-page="location" class="active">19</span>
+            </li>
+            <li>
+                <span data-page="location" class="active2">20</span>
+            </li>
+            <li>21</li>
+            <li>
+                <span data-page="location" class="active">22</span>
+            </li>
+            <li>23</li>
+            <li>
+                <span data-page="location" class="active">24</span>
+            </li>
+            <li>25</li>
+            <li>
+                <span data-page="location" class="active">26</span>
+            </li>
+            <li>
+                <span data-page="location" class="active2">27</span>
+            </li>
+            <li>
+                <span data-page="location" class="active2">28</span>
+            </li>
+            <li>29</li>
+            <li>30</li>
+            <li>
+                <span data-page="location" class="active">31</span>
+            </li>
+        </ul>
+
+    </div>
+
+    <!--LOCATION-->
+    
+    <div id="location" class="container">
+
+        <img data-page="home" class="back" src="images/left-arrow.png">
+        
+        <p class="traicolor"> TRAINING </p>
+        
+        <p class="time"> 16:00 - 21:00 </p>
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0206530530727!2d2.1352229509241796!3d41.37363600470872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498850158c0cf%3A0xe1f433b2956be632!2sLa+Urban+Dance+Factory!5e0!3m2!1ses!2ses!4v1543506311056" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <p class="compecolor"> COMPETITIONS </p>
+        
+        <p class="time"> 19:00 - 20:00</p>
+        
+        <div class="map2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3535841412545!2d2.183821150924572!3d41.38812700381057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2fd439609e1%3A0x42386118e65a3d70!2sParque+de+la+Ciudadela!5e0!3m2!1ses!2ses!4v1543506942947" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <!--RANKING-->
+    
+    <div id="ranking" class="container">
+
+        <img data-page="home" class="back" src="images/left-arrow.png">
+        <h1 class="h1teams" > TEAMS </h1>
+
+        <ol class="teams" id="listteams">
+        </ol>
+
+        <h2> BATTLES 1st ROUND </h2>
+        <ul class="battles">
+            <li> JABBAWOCKEZZ <img class="flash" src="images/flash.png"> THE ROYAL FAMILY </li>
+            <li> THE WILD <img class="flash" src="images/flash.png"> SOL-T-SHINE </li>
+            <li> POREOTICS <img class="flash" src="images/flash.png"> DIVERSITY </li>
+            <li> ROYAL FAMILY <img class="flash" src="images/flash.png"> REQUEST DANCE CREW </li>
+        </ul>
+
+    </div>
+
+    <!--TEAMS-->
+    
+    <div id="teams" class="container">
+        <img data-page="home" class="back" src="images/left-arrow.png">
+        <table class="table">
+
+            <thead>
+
+                <tr>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>nacionality</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="infomember" class="table">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!--RULES-->
+    
+    <div id="rules" class="container">
+
+        <img data-page="home" class="back" src="images/left-arrow.png">
+
+        <h1> RULES </h1>
+
+        <ul class="rules2">
+            <li> The teams must be between 8 and 10 members. </li>
+            <li> Each team chooses the way to participate; whether they want to dance together, in pairs or individually. </li>
+            <li> The teams will dance in the middle of the track in the marked diameter. </li>
+            <li> The winner will be chosen by the judges. </li>
+            <li> The winner will pass to the next round the loser will be eliminated directly. </li>
+            <li> In total, 8 groups will participate. </li>
+        </ul>
+
+        <h2> COURT </h2>
+
+        <ul class="rules2">
+
+            <li> They will be professional dancers, most of them ex competitors. </li>
+            <li> They will be odd to avoid ties. </li>
+            <li> In the case that the judges decide that we have an tie, the battle will be make it again and again till the court decide a winner. </li>
+            <li> The judges decide the winner by pointing on the same time their favorite. </li>
+
+        </ul>
+
+    </div>
+
+    <!-- LOGIN-->
+    
+    <div id="loginpage" class="container">
+    
+    </div>
+
+    <!--PROFILE-->
+    
+    <div id="profile" class="container">
+
+        <img data-page="home" class="back" src="images/left-arrow.png">
+<!--        <img class="profile2" src="images/user.png">-->
+
+    </div>
+
+    <!--CHAT-->
+    
+    <div id="chat" class="container">
+
+        <img data-page="home" class="back" src="images/left-arrow.png">
+        <div class="chat">
+            <div id="posts" class="box">
+                Loading posts...
+
+            </div>
+
+            <div class="inputs">
+                <input id="textInput" class="input" type="text" placeholder="Your message...">
+                <button onclick="writeNewPost()" id="create-post"  class="button is-primary">Send</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--MUSIC-->
+     
+    <div id="music" class="container">
+         <img data-page="home" class="back" src="images/left-arrow.png" >
+         <div id="songs"></div>
+    </div>
+
+    <!--SCRIPTS-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDWW9XCeT95SzgHaQsz4Ub1Ni9Jp0BWrGc",
+            authDomain: "competition-74559.firebaseapp.com",
+            databaseURL: "https://competition-74559.firebaseio.com",
+            projectId: "competition-74559",
+            storageBucket: "competition-74559.appspot.com",
+            messagingSenderId: "943421740601"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <script src="json.js"> </script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
