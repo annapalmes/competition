@@ -277,6 +277,7 @@ var profile = document.getElementById("profile");
         name.append(firebase.auth().currentUser.displayName);
         mail.append(firebase.auth().currentUser.email);
         
+    
         profile.append(photo, name, mail);
 
 }
